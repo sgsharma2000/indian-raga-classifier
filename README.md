@@ -5,11 +5,11 @@ IRC - neural network to classify certain Indian Ragas
 
 We want to classify them based on a set of recordings that are passed in:
 
-- Convert all of them to .wav
-- get 30 second samples of each recording, balance it so that there are equal amount of samples for each recording (by creating pickle)
-- gather all of the features based on those 30 second samples (also by creating pickle)
-- create train and test split
-- train and test on basic dense network using different feature pickles. (Each file is mapped to a certain feature)
+- Convert all of them to .wav (data_formatting.ipynb)
+- get 30 second samples of each recording, balance it so that there are equal amount of samples for each recording (by creating pickle) (data_formatting.ipynb)
+- gather all of the features based on those 30 second samples (also by creating pickle) (gen_features.ipynb)
+- create train and test split (run_xxx.ipynb)
+- train and test on basic dense network using different feature pickles. (Each file is mapped to a certain feature) (run_xxx.ipynb)
 
 
 What ragas are we classifying on? Well, I've provided sample audio recordings for 20 ragas, you can fork and modify to add new ragas or add more data into existing ragas:
